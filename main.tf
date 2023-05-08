@@ -5,7 +5,7 @@ provider "aws" {
 
 
 resource "aws_s3_bucket" "b" {
-  bucket = "myawsbucket12345554555"
+  bucket = "ami-007855ac798b5175e"
   acl    = "private"
 
   tags = {
@@ -14,6 +14,3 @@ resource "aws_s3_bucket" "b" {
   }
 }
 
-##variable "region" {
-  
-##}
